@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Draw</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div>
+        <input type="color" id="color" />
+        <br />
+        <span id="span">1</span>
+        <br />
+        <input type="range" min="1" max="300" id="range" value="1" />
+        <br />
+        <button
+          onclick="context.clearRect(0, 0, mainCanvas.width, mainCanvas.height);"
+        >
+          <img
+            src="https://i.imgur.com/91OyAfe.png"
+            alt="clear everything"
+            width="30px"
+            height="30px"
+          />
+        </button>
+      </div>
+      <canvas id="main-canvas" width="900" height="900"></canvas>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

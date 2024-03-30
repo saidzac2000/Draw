@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(113, 128, 212);
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+  background-color: rgb(113, 128, 212);
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+div {
+  align-items: flex-start;
+}
+
+span {
+  text-align: center;
+}
